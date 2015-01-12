@@ -117,3 +117,19 @@ Si vous avez des questions sur cette structure de la table "members", n'hésitez
 On va maintenant passer au SQL pur et dur.
 
 Nous souhaitons désormais connaitre le prénom, le nom, et le login de chaque membre. Vous nommerez les colonnes "Prenom", "Nom" et "Login".
+
+## Exercice 8 ##
+
+Maintenant qu'on sait faire un SELECT et des AS pour changer le nom des colonnes, nous allons ajouter une composante bien utile d'SQL : ordonner nos données.
+
+On souhaite maintenant selectionner le prénom, le nom et le login de chaque membre. Les colonnes seront nommées "Prenom", "Nom" et "Login", comme dans l'exercice 7. Nous classerons cependant les résultats dans l'ordre alphabétique des noms, puis des prénoms (dans le cas où on a deux fois le même nom dans la table, ce qui est fort probable sur un réseau social).
+
+## Exercice 9 ##
+
+On veut maintenant faire la liste de tous les messages postés sur les murs du réseau social. On affichera pour chaque message, l'id du membre qui a posté ce message (colonne nomée "ID membre"), son contenu (colonne nomée "Contenu") puis pour terminer la date du post (colonne nommée "Poste le").
+
+Nous classerons ces posts par ordre d'ID membres, puis par date de post.
+
+## Exercice 10 ##
+
+Revenir en soutien demain. Bonne soirée :)
